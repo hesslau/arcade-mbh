@@ -80,6 +80,8 @@ $blue: #21AAFF;
 .widget_gce_widget {
   .gce-list-event, .gce-tooltip-event {
     @include purple;
+    border-radius: 4px;
+    padding: 1rem;
 
     em { color: rgba(255,255,255,0.8); font-size: small; }
   }
