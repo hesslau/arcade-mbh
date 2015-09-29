@@ -2,7 +2,7 @@
 /**
  * Template Name: Rooms
  *
- * Description: A full width page template that will display 4 posts in a block without any sidebars
+ * Description: Displays excerpts of all posts in the category 'rooms'
  *
  * @since 1.0.3
  */
