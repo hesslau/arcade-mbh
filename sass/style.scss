@@ -76,7 +76,8 @@ $blue: #21AAFF;
 #wp-calendar {
   th {  @include purple; }
   tfoot td { border: 0; }
-
+}
+.widget_gce_widget {
   .gce-list-event, .gce-tooltip-event {
     @include purple;
   }

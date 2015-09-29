@@ -62,12 +62,12 @@
 #wp-calendar tfoot td {
   border: 0; }
 
-#wp-calendar .gce-list-event, #wp-calendar .gce-tooltip-event {
+.widget_gce_widget .gce-list-event, .widget_gce_widget .gce-tooltip-event {
   background-color: #730046;
   color: white; }
 
-#wp-calendar .gce-list-title {
+.widget_gce_widget .gce-list-title {
   display: none; }
 
-#wp-calendar .gce-event-day {
+.widget_gce_widget .gce-event-day {
   margin-bottom: 1rem; }
