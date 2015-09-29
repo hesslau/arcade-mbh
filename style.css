@@ -65,6 +65,9 @@
 .widget_gce_widget .gce-list-event, .widget_gce_widget .gce-tooltip-event {
   background-color: #730046;
   color: white; }
+  .widget_gce_widget .gce-list-event em, .widget_gce_widget .gce-tooltip-event em {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small; }
 
 .widget_gce_widget .gce-list-title {
   display: none; }
