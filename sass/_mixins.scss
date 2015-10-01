@@ -1,0 +1,44 @@
+@mixin special-color($name, $color, $textcolor, $hovercolor: lighten($color,10), $bordercolor: darken($color,10)) {
+  .text-#{$name} {
+    color: $color; }
+
+  a.text-#{$name}:hover {
+    color: $hovercolor; }
+
+  .bg-#{$name} {
+    color: $textcolor; }
+
+  .bg-#{$name} {
+    background-color: $color; }
+
+  a.bg-#{$name}:hover {
+    background-color: $hovercolor; }
+
+  .btn-#{$name} {
+    color: $textcolor;
+    background-color: $color;
+    border-color: $bordercolor; }
+    .btn-#{$name}:hover, .btn-#{$name}:focus, .btn-#{$name}:active, .btn-#{$name}.active {
+      color: $textcolor;
+      background-color: #3276b1;    // ???
+      border-color: #285e8e; }      // ???
+    .open .btn-#{$name}.dropdown-toggle {
+      color: $textcolor;
+      background-color: #3276b1;    // ???
+      border-color: #285e8e; }      // ???
+    .btn-#{$name}:active, .btn-#{$name}.active {
+      background-image: none; }
+    .open .btn-#{$name}.dropdown-toggle {
+      background-image: none; }
+    .btn-#{$name}.disabled, .btn-#{$name}.disabled:hover, .btn-#{$name}.disabled:focus, .btn-#{$name}.disabled:active, .btn-#{$name}.disabled.active, .btn-#{$name}[disabled], .btn-#{$name}[disabled]:hover, .btn-#{$name}[disabled]:focus, .btn-#{$name}[disabled]:active, .btn-#{$name}[disabled].active, fieldset[disabled] .btn-#{$name}, fieldset[disabled] .btn-#{$name}:hover, fieldset[disabled] .btn-#{$name}:focus, fieldset[disabled] .btn-#{$name}:active, fieldset[disabled] .btn-#{$name}.active {
+      background-color: $color;
+      border-color: $bordercolor; }
+    .btn-#{$name} .badge {
+      color: $color;
+      background-color: $textcolor; }
+
+  .bavotasan_custom_text_widget i.#{$name} {
+    color: $color;
+    border-color: $color; }
+
+}

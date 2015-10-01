@@ -12,10 +12,15 @@
 */
 
 @import url(https://fonts.googleapis.com/css?family=Abel);
+@import 'mixins';
 
 // COLORS
 $purple: #730046;
+$textOnPurple: #fff;
+
 $green: #BFBB11;
+$textOnGreen: #fff;
+
 $yellow: #FFC200;
 $orange: #C93C00;
 $red: #E88801;
@@ -88,3 +93,7 @@ $blue: #21AAFF;
   .gce-list-title { display: none; }
   .gce-event-day { margin-bottom: 1rem; }
 }
+
+/* Override special colors: primary, info, danger, warning, success */
+@include special-color("primary", $purple, $textOnPurple);
+@include special-color("info", $green, $textOnGreen);

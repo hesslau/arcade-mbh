@@ -76,3 +76,100 @@
 
 .widget_gce_widget .gce-event-day {
   margin-bottom: 1rem; }
+
+/* Override special colors: primary, info, danger, warning, success */
+.text-primary {
+  color: #730046; }
+
+a.text-primary:hover {
+  color: #a60065; }
+
+.bg-primary {
+  color: #fff; }
+
+.bg-primary {
+  background-color: #730046; }
+
+a.bg-primary:hover {
+  background-color: #a60065; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #730046;
+  border-color: #400027; }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e; }
+
+.open .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e; }
+
+.btn-primary:active, .btn-primary.active {
+  background-image: none; }
+
+.open .btn-primary.dropdown-toggle {
+  background-image: none; }
+
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+  background-color: #730046;
+  border-color: #400027; }
+
+.btn-primary .badge {
+  color: #730046;
+  background-color: #fff; }
+
+.bavotasan_custom_text_widget i.primary {
+  color: #730046;
+  border-color: #730046; }
+
+.text-info {
+  color: #BFBB11; }
+
+a.text-info:hover {
+  color: #eae619; }
+
+.bg-info {
+  color: #fff; }
+
+.bg-info {
+  background-color: #BFBB11; }
+
+a.bg-info:hover {
+  background-color: #eae619; }
+
+.btn-info {
+  color: #fff;
+  background-color: #BFBB11;
+  border-color: #908d0d; }
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e; }
+
+.open .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e; }
+
+.btn-info:active, .btn-info.active {
+  background-image: none; }
+
+.open .btn-info.dropdown-toggle {
+  background-image: none; }
+
+.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
+  background-color: #BFBB11;
+  border-color: #908d0d; }
+
+.btn-info .badge {
+  color: #BFBB11;
+  background-color: #fff; }
+
+.bavotasan_custom_text_widget i.info {
+  color: #BFBB11;
+  border-color: #BFBB11; }
